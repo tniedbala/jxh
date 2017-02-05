@@ -1,0 +1,27 @@
+{
+  "name": "jxh",
+  "version": "1.0.1",
+  "description": "Convert JavaScript objects to XML / HTML",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tnieds/jxh.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "xml",
+    "html",
+    "object",
+    "json",
+    "parse",
+    "convert",
+    "transform"
+  ],
+  "author": {
+      "name" : "T. Niedbala",
+      "email" : "tnieds@gmail.com"
+  },
+  "license": "MIT"
+}
