@@ -1,6 +1,6 @@
 {
   "name": "jxh",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "Convert JavaScript objects to XML / HTML",
   "main": "index.js",
   "repository": {
