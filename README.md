@@ -2,7 +2,7 @@
 
 Convert JavaScript objects to XML / HTML.
 
-## Install
+## Installation
 
 ```sh
 npm install jxh
@@ -17,7 +17,7 @@ jxh(obj, indentString, indentLevel);
 - **indentString** : *Optional*. String, basic unit of indentation. Default = 2 spaces.
 - **indentLevel** : *Optional*. Number, initial level of indentation. Default = 0.
 
-## Examples
+## Usage
 
 ### Basic Elements
 
@@ -351,11 +351,8 @@ Additionally, the following property names are reserved, and may only be of the 
 
 
 ## Version History
+On [Github](https://github.com/tnieds/jxh/blob/master/CHANGELOG.md)
 
-| Version     				| Description 		|
-| :------------------------	|:------------------|
-| 1.0.0						| Initial Release 	|
-| 1.0.1						| Add github repo 	|
-| 1.0.2						| Documentation updates 	|
-| 1.0.3						| Documentation updates 	|
 
+## License
+[MIT](https://github.com/tnieds/jxh/blob/master/LICENSE)

@@ -1,0 +1,354 @@
+----------------------------------------
+Self-Closing Element - Array
+----------------------------------------
+v1.0.3
+<meta charset="utf-8"/>
+<meta name="test-name"/>
+<meta description="test-description"/>
+
+v1.0.4
+<meta charset="utf-8"/>
+<meta name="test-name"/>
+<meta description="test-description"/>
+
+
+----------------------------------------
+Nested Elements
+----------------------------------------
+v1.0.3
+<div>
+  <div>
+    <meta charset="utf-8">
+    <meta charset="utf-8"/>
+    <h1>heading1</h1>
+    <p>paragraph1</p>
+    <p>paragraph2</p>
+    <p>paragraph3</p>
+    <li><a>link1</a></li>
+    <li><a>link2</a></li>
+    <li><a>link3</a></li>
+  </div>
+</div>
+
+v1.0.4
+<div>
+  <div>
+    <meta charset="utf-8">
+    <meta charset="utf-8"/>
+    <h1>heading1</h1>
+    <p>paragraph1</p>
+    <p>paragraph2</p>
+    <p>paragraph3</p>
+    <li><a>link1</a></li>
+    <li><a>link2</a></li>
+    <li><a>link3</a></li>
+  </div>
+</div>
+
+
+----------------------------------------
+Basic Element - Attributes
+----------------------------------------
+v1.0.3
+<h1 class="test-class" id="test" data-test="test">heading1</h1>
+
+v1.0.4
+<h1 class="test-class" id="test" data-test="test">heading1</h1>
+
+
+----------------------------------------
+Array Element - Attributes 1
+----------------------------------------
+v1.0.3
+<p class="test-class" id="test" data-test="test">paragraph1</p>
+<p class="test-class" id="test" data-test="test">paragraph2</p>
+<p class="test-class" id="test" data-test="test">paragraph3</p>
+
+v1.0.4
+<p class="test-class" id="test" data-test="test">paragraph1</p>
+<p class="test-class" id="test" data-test="test">paragraph2</p>
+<p class="test-class" id="test" data-test="test">paragraph3</p>
+
+
+----------------------------------------
+Array Element - Attributes 2
+----------------------------------------
+v1.0.3
+<p class="test-class" id="test" data-test="test">paragraph1</p>
+<p class="inner-class">paragraph2</p>
+<p class="test-class" id="test" data-test="test">paragraph3</p>
+
+v1.0.4
+<p class="test-class" id="test" data-test="test">paragraph1</p>
+<p class="inner-class">paragraph2</p>
+<p class="test-class" id="test" data-test="test">paragraph3</p>
+
+
+----------------------------------------
+Multi-Element - Attributes
+----------------------------------------
+v1.0.3
+<li><a class="test-class" id="test" data-test="test">link1</a></li>
+
+v1.0.4
+<li><a class="test-class" id="test" data-test="test">link1</a></li>
+
+
+----------------------------------------
+Multi-Element - Array, Attributes 1
+----------------------------------------
+v1.0.3
+<li><a class="test-class" id="test" data-test="test">link1</a></li>
+<li><a class="test-class" id="test" data-test="test">link2</a></li>
+<li><a class="test-class" id="test" data-test="test">link3</a></li>
+
+v1.0.4
+<li><a class="test-class" id="test" data-test="test">link1</a></li>
+<li><a class="test-class" id="test" data-test="test">link2</a></li>
+<li><a class="test-class" id="test" data-test="test">link3</a></li>
+
+
+----------------------------------------
+Multi-Element - Array, Attributes 2
+----------------------------------------
+v1.0.3
+<li><a class="test-class" id="test" data-test="test">paragraph1</a></li>
+<li><a class="inner-class">paragraph2</a></li>
+<li><a class="test-class" id="test" data-test="test">paragraph3</a></li>
+
+v1.0.4
+<li><a class="test-class" id="test" data-test="test">paragraph1</a></li>
+<li><a class="inner-class">paragraph2</a></li>
+<li><a class="test-class" id="test" data-test="test">paragraph3</a></li>
+
+
+----------------------------------------
+Nested Elements - Attributes
+----------------------------------------
+v1.0.3
+<div class="test-class" id="test" data-test="test">
+  <div class="test-class" id="test" data-test="test">
+    <meta charset="utf-8">
+    <meta charset="utf-8"/>
+    <h1>heading1</h1>
+    <p>paragraph1</p>
+    <p>paragraph2</p>
+    <p>paragraph3</p>
+    <li><a>link1</a></li>
+    <li><a>link2</a></li>
+    <li><a>link3</a></li>
+  </div>
+</div>
+
+v1.0.4
+<div class="test-class" id="test" data-test="test">
+  <div class="test-class" id="test" data-test="test">
+    <meta charset="utf-8">
+    <meta charset="utf-8"/>
+    <h1>heading1</h1>
+    <p>paragraph1</p>
+    <p>paragraph2</p>
+    <p>paragraph3</p>
+    <li><a>link1</a></li>
+    <li><a>link2</a></li>
+    <li><a>link3</a></li>
+  </div>
+</div>
+
+
+----------------------------------------
+Component Object
+----------------------------------------
+v1.0.3
+<div>
+  <div>
+    <div>
+      <div>
+        <meta charset="utf-8">
+        <meta charset="utf-8"/>
+        <h1>heading1</h1>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <p>paragraph3</p>
+        <li><a>link1</a></li>
+        <li><a>link2</a></li>
+        <li><a>link3</a></li>
+      </div>
+    </div>
+    <div class="test-class" id="test" data-test="test">
+      <div class="test-class" id="test" data-test="test">
+        <meta charset="utf-8">
+        <meta charset="utf-8"/>
+        <h1>heading1</h1>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <p>paragraph3</p>
+        <li><a>link1</a></li>
+        <li><a>link2</a></li>
+        <li><a>link3</a></li>
+      </div>
+    </div>
+  </div>
+</div>
+
+v1.0.4
+<div>
+  <div>
+    <div>
+      <div>
+        <meta charset="utf-8">
+        <meta charset="utf-8"/>
+        <h1>heading1</h1>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <p>paragraph3</p>
+        <li><a>link1</a></li>
+        <li><a>link2</a></li>
+        <li><a>link3</a></li>
+      </div>
+    </div>
+    <div class="test-class" id="test" data-test="test">
+      <div class="test-class" id="test" data-test="test">
+        <meta charset="utf-8">
+        <meta charset="utf-8"/>
+        <h1>heading1</h1>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <p>paragraph3</p>
+        <li><a>link1</a></li>
+        <li><a>link2</a></li>
+        <li><a>link3</a></li>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+----------------------------------------
+Component Array
+----------------------------------------
+v1.0.3
+<div>
+  <div>
+    <div>
+      <div>
+        <meta charset="utf-8">
+        <meta charset="utf-8"/>
+        <h1>heading1</h1>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <p>paragraph3</p>
+        <li><a>link1</a></li>
+        <li><a>link2</a></li>
+        <li><a>link3</a></li>
+      </div>
+    </div>
+    <div class="test-class" id="test" data-test="test">
+      <div class="test-class" id="test" data-test="test">
+        <meta charset="utf-8">
+        <meta charset="utf-8"/>
+        <h1>heading1</h1>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <p>paragraph3</p>
+        <li><a>link1</a></li>
+        <li><a>link2</a></li>
+        <li><a>link3</a></li>
+      </div>
+    </div>
+  </div>
+</div>
+
+v1.0.4
+<div>
+  <div>
+    <div>
+      <div>
+        <meta charset="utf-8">
+        <meta charset="utf-8"/>
+        <h1>heading1</h1>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <p>paragraph3</p>
+        <li><a>link1</a></li>
+        <li><a>link2</a></li>
+        <li><a>link3</a></li>
+      </div>
+    </div>
+    <div class="test-class" id="test" data-test="test">
+      <div class="test-class" id="test" data-test="test">
+        <meta charset="utf-8">
+        <meta charset="utf-8"/>
+        <h1>heading1</h1>
+        <p>paragraph1</p>
+        <p>paragraph2</p>
+        <p>paragraph3</p>
+        <li><a>link1</a></li>
+        <li><a>link2</a></li>
+        <li><a>link3</a></li>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+----------------------------------------
+Array Input
+----------------------------------------
+v1.0.3
+<div>
+  <div>
+    <meta charset="utf-8">
+    <meta charset="utf-8"/>
+    <h1>heading1</h1>
+    <p>paragraph1</p>
+    <p>paragraph2</p>
+    <p>paragraph3</p>
+    <li><a>link1</a></li>
+    <li><a>link2</a></li>
+    <li><a>link3</a></li>
+  </div>
+</div>
+<div class="test-class" id="test" data-test="test">
+  <div class="test-class" id="test" data-test="test">
+    <meta charset="utf-8">
+    <meta charset="utf-8"/>
+    <h1>heading1</h1>
+    <p>paragraph1</p>
+    <p>paragraph2</p>
+    <p>paragraph3</p>
+    <li><a>link1</a></li>
+    <li><a>link2</a></li>
+    <li><a>link3</a></li>
+  </div>
+</div>
+
+v1.0.4
+<div>
+  <div>
+    <meta charset="utf-8">
+    <meta charset="utf-8"/>
+    <h1>heading1</h1>
+    <p>paragraph1</p>
+    <p>paragraph2</p>
+    <p>paragraph3</p>
+    <li><a>link1</a></li>
+    <li><a>link2</a></li>
+    <li><a>link3</a></li>
+  </div>
+</div>
+<div class="test-class" id="test" data-test="test">
+  <div class="test-class" id="test" data-test="test">
+    <meta charset="utf-8">
+    <meta charset="utf-8"/>
+    <h1>heading1</h1>
+    <p>paragraph1</p>
+    <p>paragraph2</p>
+    <p>paragraph3</p>
+    <li><a>link1</a></li>
+    <li><a>link2</a></li>
+    <li><a>link3</a></li>
+  </div>
+</div>
+
+

@@ -1,0 +1,63 @@
+----------------------------------------
+Adjust Newline
+----------------------------------------
+v1.0.3
+<script type="text/javascript" src="test/test.js">
+</script>
+
+v1.0.4
+<script type="text/javascript" src="test/test.js"></script>
+
+
+----------------------------------------
+Render Falsey Values
+----------------------------------------
+v1.0.3
+<h1>false</h1>
+<h5></h5>
+<p>false</p>
+<p></p>
+
+v1.0.4
+<h1>false</h1>
+<h2>null</h2>
+<h3>undefined</h3>
+<h4>NaN</h4>
+<h5></h5>
+<p>false</p>
+<p>null</p>
+<p>undefined</p>
+<p>NaN</p>
+<p></p>
+
+
+----------------------------------------
+Render Falsey Values - Attributes
+----------------------------------------
+v1.0.3
+<h1 class="test-class">
+  <txt>false</txt>
+</h1>
+<h2 class="test-class">
+</h2>
+<h3 class="test-class">
+</h3>
+<h4 class="test-class">
+</h4>
+<h5 class="test-class"></h5>
+<p class="test-class">false</p>
+<p class="test-class"></p>
+
+v1.0.4
+<h1 class="test-class">false</h1>
+<h2 class="test-class">null</h2>
+<h3 class="test-class">undefined</h3>
+<h4 class="test-class">NaN</h4>
+<h5 class="test-class"></h5>
+<p class="test-class">false</p>
+<p class="test-class">null</p>
+<p class="test-class">undefined</p>
+<p class="test-class">NaN</p>
+<p class="test-class"></p>
+
+

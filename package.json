@@ -1,18 +1,19 @@
 {
-  "name": "jxh",
-  "version": "1.0.3",
+  "name": "jxh_update",
+  "version": "1.0.4",
   "description": "Convert JavaScript objects to XML / HTML",
-  "main": "index.js",
+  "main": "dist/jxh.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/tnieds/jxh.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha test/test.jxh.js > test/log/test.jxh.summary.log"
   },
   "keywords": [
     "xml",
     "html",
+    "javascript",
     "object",
     "json",
     "parse",
@@ -20,8 +21,14 @@
     "transform"
   ],
   "author": {
-      "name" : "T. Niedbala",
-      "email" : "tnieds@gmail.com"
+    "name": "T. Niedbala",
+    "email": "tnieds@gmail.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.4.2"
+  },
+  "dependencies": {
+    "jxh": "^1.0.3"
+  }
 }

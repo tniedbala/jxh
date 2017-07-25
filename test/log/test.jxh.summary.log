@@ -1,0 +1,56 @@
+
+
+  Test: jxh v1.0.4
+    Standard Functionality
+      Default Parameters
+        ✓ Basic Element
+        ✓ Array Element
+        ✓ Multi-Element
+        ✓ Multi-Element - Array
+        ✓ Single Element
+        ✓ Single Element - Nested
+        ✓ Single Element - Array
+        ✓ Self-Closing Element
+        ✓ Self-Closing Element - Nested
+        ✓ Self-Closing Element - Array
+        ✓ Nested Elements
+        ✓ Basic Element - Attributes
+        ✓ Array Element - Attributes 1
+        ✓ Array Element - Attributes 2
+        ✓ Multi-Element - Attributes
+        ✓ Multi-Element - Array, Attributes 1
+        ✓ Multi-Element - Array, Attributes 2
+        ✓ Nested Elements - Attributes
+        ✓ Component Object
+        ✓ Component Array
+        ✓ Array Input
+      Alt. Indent
+        ✓ Basic Element
+        ✓ Array Element
+        ✓ Multi-Element
+        ✓ Multi-Element - Array
+        ✓ Single Element
+        ✓ Single Element - Nested
+        ✓ Single Element - Array
+        ✓ Self-Closing Element
+        ✓ Self-Closing Element - Nested
+        ✓ Self-Closing Element - Array
+        ✓ Nested Elements
+        ✓ Basic Element - Attributes
+        ✓ Array Element - Attributes 1
+        ✓ Array Element - Attributes 2
+        ✓ Multi-Element - Attributes
+        ✓ Multi-Element - Array, Attributes 1
+        ✓ Multi-Element - Array, Attributes 2
+        ✓ Nested Elements - Attributes
+        ✓ Component Object
+        ✓ Component Array
+        ✓ Array Input
+    Bug Fixes
+      ✓ Adjust Newline
+      ✓ Render Falsey Values
+      ✓ Render Falsey Values - Attributes
+
+
+  45 passing (157ms)
+
