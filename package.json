@@ -1,5 +1,5 @@
 {
-  "name": "jxh_update",
+  "name": "jxh",
   "version": "1.0.4",
   "description": "Convert JavaScript objects to XML / HTML",
   "main": "dist/jxh.js",
