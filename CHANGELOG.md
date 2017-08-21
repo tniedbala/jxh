@@ -1,3 +1,6 @@
+### 1.0.5 / 2017-08-20
+- Documentation, dependecy updates
+
 ### 1.0.4 / 2017-07-24
 - Code refactor
 - Bug fixes for erroneous newlines and improved handling of falsey values

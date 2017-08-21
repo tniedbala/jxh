@@ -351,8 +351,8 @@ Additionally, the following property names are reserved, and may only be of the 
 
 
 ## Version History
-On [Github](https://github.com/tnieds/jxh/blob/master/CHANGELOG.md)
+On [Github](https://github.com/tniedbala/jxh/blob/master/CHANGELOG.md)
 
 
 ## License
-[MIT](https://github.com/tnieds/jxh/blob/master/LICENSE)
+[MIT](https://github.com/tniedbala/jxh/blob/master/LICENSE)

@@ -1,11 +1,11 @@
 {
   "name": "jxh",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Convert JavaScript objects to XML / HTML",
   "main": "dist/jxh.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/tnieds/jxh.git"
+    "url": "https://github.com/tniedbala/jxh.git"
   },
   "scripts": {
     "test": "mocha test/test.jxh.js > test/log/test.jxh.summary.log"
@@ -26,9 +26,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^3.4.2"
-  },
-  "dependencies": {
+    "mocha": "^3.4.2",
     "jxh": "^1.0.3"
   }
 }
